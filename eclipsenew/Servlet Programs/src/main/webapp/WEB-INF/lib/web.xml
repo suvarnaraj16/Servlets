@@ -1,0 +1,13 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>abc</servlet-name>
+		<servlet-class>FirstServletProgram</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>abc</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+</web-app>
